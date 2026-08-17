@@ -110,9 +110,9 @@ run independently.
 
 Reported in full in the report, and worth stating here: single seed per configuration, so the
 stability figures describe one run rather than a distribution across seeds; a fixed network
-architecture across variants; and no hyperparameter search per variant, which is deliberate — the
-point was to hold the setup constant — but means each variant may be some distance from its own best
-configuration.
+architecture across variants; and no hyperparameter search per variant. The last of these is
+deliberate, since the point was to hold the setup constant, but it does mean each variant may be some
+distance from its own best configuration.
 
 ## License
 
