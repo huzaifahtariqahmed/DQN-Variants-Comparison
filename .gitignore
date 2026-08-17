@@ -1,0 +1,26 @@
+# Third-party papers — NOT redistributable.
+# "Lit Review/" holds downloaded PDFs of published papers by other authors. Republishing them in a
+# public repo is a copyright problem regardless of intent. The literature review document is our own
+# writing and stays; the source PDFs do not. Cite them, do not host them.
+Lit Review/
+
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training artefacts
+*.pt
+*.pth
+*.ckpt
+runs/
+wandb/
